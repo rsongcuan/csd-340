@@ -1,0 +1,55 @@
+/*
+Ryan Songcuan
+1/30/2022
+Module 5.2 Assignment: Build a Webpage Exercise, Part 4
+ */
+
+h1, h3 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    color: rgba(111, 0, 214, 1);
+}
+
+#image-gallery {
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: auto auto auto;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(111, 0, 214, 1);
+}
+
+.covers {
+    border: 3px solid rgba(111, 0, 214, 1);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#landing-page {
+    text-align: right;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
